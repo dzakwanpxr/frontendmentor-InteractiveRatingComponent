@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  height: 400px;
+  margin: 250px auto 0 auto;
+  padding: 25px;
+  max-width: 375px;
+  margin-bottom: 1.5rem;
+}
+
+.big-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1.5rem;
+}
+
+.star {
+  background-color: hsl(216, 12%, 8%);
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+.input-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating-number {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(217, 12%, 63%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+.rating-number:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.rating-number:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.button-submit {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  height: 40px;
+  border-radius: 25px;
+  border: 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.button-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.thank-you {
+  text-align: center;
+  display: none;
+}
+
+.final-rating {
+  margin: 1.5em;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 8%);
+  padding: 10px 30px;
+  border-radius: 25px;
+  display: inline-block;
+}
